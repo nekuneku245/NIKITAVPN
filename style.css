@@ -1,0 +1,131 @@
+/* * {
+    padding: 0;
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+}
+.flex-item {
+    list-style: none;
+    color: #4F5665;
+    float: left;
+    margin-top: 1.4em;
+    width: 100px; */
+
+*{
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+body {
+    color: #fff;
+    font-size: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 12em;
+}
+li {
+    display: inline;
+    padding: 20px;
+}
+
+ul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+ul li a {
+    text-decoration: none; 
+    color: #4F5665;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center{
+    text-align: center;
+}
+.Signin {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4F5665;
+    position: relative;    
+    text-align:end;
+    bottom: 2.1em;    
+    padding-right: 20em;
+}
+.Signup {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F53855;
+    position: relative;    
+    text-align:end;
+    bottom: 4.2em;
+    padding-right: 12em;
+}
+p1{
+    border: 1px solid red;
+    padding: 5px; 
+    border-radius: 50px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 3em;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p2 {
+    font-size: 1em;
+    color: #4F5665;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#position {
+    position: relative;
+    top: 0.5em;
+
+}
+#style {
+    position: relative;
+    padding-left: 4.8em;
+    bottom: 1.96em;
+    font-style:oblique;
+}
+#description {
+    position: relative;
+    bottom: 6em;
+}
+#style1 {
+    position: relative;
+    bottom: 6em;
+    font-style:oblique;
+}
+article {
+    flex: 2 2 12em;
+    padding-left: 12.3em;
+    margin-right: 50em;
+    position: relative;
+    bottom:2em; 
+}
+.png1 {
+    position: absolute;
+    float: left;
+    margin-left: 50em;
+}
+header, footer {
+    flex: 0 0 5em;
+    background-color: #ffffff;
+}
+body{
+    min-height: 100vh;
+}
+main {
+    flex-direction: row;
+    min-height: 100%;
+    flex: 1 1 auto;
+}
+
