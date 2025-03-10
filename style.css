@@ -93,6 +93,7 @@ p2 {
     position: relative;
     padding-left: 4.8em;
     bottom: 1.96em;
+    right: 16px;
     font-style:oblique;
 }
 #description {
@@ -116,6 +117,13 @@ article {
     float: left;
     margin-left: 50em;
 }
+
+.button{
+    position: absolute;
+    float: left;
+    margin-left: 10em;
+    top: 26em;
+}
 header, footer {
     flex: 0 0 5em;
     background-color: #ffffff;
@@ -128,4 +136,5 @@ main {
     min-height: 100%;
     flex: 1 1 auto;
 }
+
 
